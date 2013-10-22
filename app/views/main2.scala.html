@@ -1,0 +1,61 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Ling Hung's homepage." />
+    <meta name="keywords" content="Ling, Hung, HAMR, plasmon" />
+    <meta name="author" content="Ling Hung" />
+    <title>@title</title>
+    <link rel="stylesheet" type="text/css" href="@routes.Assets.at("stylesheets/my_style.css")">
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/http_code.jquery.com_jquery-2.0.0.js")" ></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/my_code.js")"></script>
+</head>
+
+<body>
+<div id="wrap">
+    <div id="header">
+        <h2>Ling Hung</h2>
+        <p class="slogan">Research Assistant,<br>
+            Dept ECE, Univ Maryland, College Park
+        </p>
+    </div>
+
+    <div id="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <br>
+            <li><a href="Resume.html">Resume</a></li>
+            <br>
+            <li><a href="Research.html">Research</a></li>
+            <br>
+            <li><a href="Publications.html">Publications</a></li>
+            <br>
+            <li><a href="Contact.html">Contact</a></li>
+            <br>
+            <li><a href="http://www.linkedin.com/pub/ling-hung/50/140/a8a"><img src="@routes.Assets.at("images/LinkedIn_button.gif")" alt="Join my group on LinkedIn" width="160" height="33" vspace="2" border="0" /></a></li>
+            <li><a href="http://www.twitter.com/eceumd"><img src="@routes.Assets.at("images/twitter_logo.png")" alt="Follow me on Twitter" border="0" vspace="8" /></a><br >
+            </li>
+            <li><a href="https://www.facebook.com/ling.hung.313"><img src="@routes.Assets.at("images/facebook_button.jpg")" alt="Follow me on Facebook" width="160" height="47" vspace="2" border="0" /></a><br>
+            </li>
+            <br>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div align="center" id="my_div">
+            <img src="@routes.Assets.at("images/IMG_4707.jpg")" class="theLogo" />
+        </div>
+        <br>
+        <p> I am a Ph.D. candidate in the <a href="http://www.ece.umd.edu/">Department of ECE</a> at <a href="http://www.umd.edu/">University of Maryland, College Park</a>. I am working under the supervision of <a href="http://www.cspl.umd.edu/kjrliu/">Prof. K.J. Ray Liu</a> in the <a href="http://sig.umd.edu/">Signals and Information Group</a> at University of Maryland, College Park since 2009. I received M.S. and B.S. degrees in Electrical Engineering from <a href="http://www.ntu.edu.tw/">National Taiwan University</a>, Taipei, Taiwan.</p>
+        <p> My current research interest focuses on plasmon resonances in metallic nanoparticles and their applications.</p>
+    </div>
+    <div id="footer">
+        <p>Copyright &copy; Ling Hung 2013 | designed in IntelliJ | last modified: Jul. 2, 2013</p>
+    </div>
+</div>
+
+
+</body>
+</html>
