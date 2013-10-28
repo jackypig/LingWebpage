@@ -7,9 +7,14 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="@routes.Assets.at("javascripts/jquery.ticker.js")" ></script>
     <script type="text/javascript" src="@routes.Assets.at("javascripts/site.js")" ></script>
+    <script type="text/javascript" src="@routes.Assets.at("javascripts/jquery.cycle2.min.js")" ></script>
     <script type="text/javascript">
         $(function () {
             $('#js-news').ticker();
+            $('#fade').cycle({
+                fx:    'fade',
+                speed:  2500
+            });
         });
     </script>
     <style>
@@ -31,12 +36,17 @@
             <li class="news-item"><a href="#">Congratulations to Dr. Hung's new position in XappMedia as principal software developer!</a></li>
             <li class="news-item"><a href="#">Dr. Hung's paper has been accepted for publication in Jounral Applied Physics.</a></li>
         </ul>
-        <div align="center" id="my_div">
+        <div id="my_div" align="center">
             <img src="@routes.Assets.at("images/P1010530.jpg")" class="theLogo" />
+            <!--<img src="@routes.Assets.at("images/P1010484.jpg")" class="theLogo" />-->
+            <!--<img src="@routes.Assets.at("images/VancouverConferences.jpg")" class="theLogo" />-->
+            <!--<img src="@routes.Assets.at("images/Chicago.jpg")" class="theLogo" />-->
         </div>
         <br>
-        <p> I am a Ph.D. candidate in the <a href="http://www.ece.umd.edu/">Department of ECE</a> at <a href="http://www.umd.edu/">University of Maryland, College Park</a>. I am working under the supervision of <a href="http://www.cspl.umd.edu/kjrliu/">Prof. Isaak D. Mayergoyz</a> in the <a href="http://sig.umd.edu/">Magnetic Lab</a> at University of Maryland, College Park since 2009. I received M.S. and B.S. degrees in Electrical Engineering from <a href="http://www.ntu.edu.tw/">National Taiwan University</a>, Taipei, Taiwan.</p>
-        <p> My PhD research interest focuses on plasmon resonances in metallic nanoparticles and their applications.</p>
+        <div>
+            <p> I am a Ph.D. candidate in the <a href="http://www.ece.umd.edu/">Department of ECE</a> at <a href="http://www.umd.edu/">University of Maryland, College Park</a>. I am working under the supervision of <a href="http://www.cspl.umd.edu/kjrliu/">Prof. Isaak D. Mayergoyz</a> in the <a href="http://sig.umd.edu/">Magnetic Lab</a> at University of Maryland, College Park since 2009. I received M.S. and B.S. degrees in Electrical Engineering from <a href="http://www.ntu.edu.tw/">National Taiwan University</a>, Taipei, Taiwan.</p>
+            <p> My PhD research interest focuses on plasmon resonances in metallic nanoparticles and their applications.</p>
+        </div>
     </div>
 
 }

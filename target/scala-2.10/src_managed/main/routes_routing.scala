@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/Piggy/dev/LingWebpage/conf/routes
-// @HASH:fad6daf34d3e539c49a3e311ba7a23c07809041b
-// @DATE:Sat Oct 26 22:51:59 EDT 2013
+// @SOURCE:/Users/jpk/dev/MyfirstApplication/LingWebpage/conf/routes
+// @HASH:38d5ee42b8bca8e42e79fcc5a7ab95db5863200c
+// @DATE:Sun Oct 27 22:49:40 EDT 2013
 
 
 import play.core._
@@ -53,9 +53,9 @@ private[this] lazy val controllers_Application_contact5 = Route("GET", PathPatte
         
 
 // @LINE:15
-private[this] lazy val controllers_Assets_at6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_Assets_at6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+"""))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Index""","""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Publication""","""controllers.Application.Publication()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Research""","""controllers.Application.Research()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Resume""","""controllers.Application.Resume()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """contact""","""controllers.Application.contact()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Index""","""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Publication""","""controllers.Application.Publication()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Research""","""controllers.Application.Research()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """Resume""","""controllers.Application.Resume()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """contact""","""controllers.Application.contact()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}

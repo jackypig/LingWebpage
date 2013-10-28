@@ -198,10 +198,10 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Oct 27 21:47:16 EDT 2013
-                    SOURCE: C:/Users/Piggy/dev/LingWebpage/app/views/publications.scala.html
-                    HASH: ffea458a6ca30d296cfe7345d750e0bb26c7cbe8
-                    MATRIX: 803->1|838->28|877->30|16756->15872|16772->15878|16831->15914|17389->16435|17405->16441|17460->16473|18008->16984|18024->16990|18092->17035|18663->17569|18679->17575|18735->17608
+                    DATE: Sun Oct 27 22:49:41 EDT 2013
+                    SOURCE: /Users/jpk/dev/MyfirstApplication/LingWebpage/app/views/publications.scala.html
+                    HASH: b13033a49b3bc7094291488a3231fabd2e906c5a
+                    MATRIX: 803->1|838->28|877->30|16626->15742|16642->15748|16701->15784|17251->16297|17267->16303|17322->16335|17862->16838|17878->16844|17946->16889|18509->17415|18525->17421|18581->17454
                     LINES: 29->1|29->1|29->1|159->131|159->131|159->131|167->139|167->139|167->139|175->147|175->147|175->147|183->155|183->155|183->155
                     -- GENERATED --
                 */

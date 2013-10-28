@@ -35,13 +35,18 @@ Seq[Any](format.raw/*1.19*/("""
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script type="text/javascript" src=""""),_display_(Seq[Any](/*8.42*/routes/*8.48*/.Assets.at("javascripts/jquery.ticker.js"))),format.raw/*8.90*/("""" ></script>
     <script type="text/javascript" src=""""),_display_(Seq[Any](/*9.42*/routes/*9.48*/.Assets.at("javascripts/site.js"))),format.raw/*9.81*/("""" ></script>
+    <script type="text/javascript" src=""""),_display_(Seq[Any](/*10.42*/routes/*10.48*/.Assets.at("javascripts/jquery.cycle2.min.js"))),format.raw/*10.94*/("""" ></script>
     <script type="text/javascript">
-        $(function () """),format.raw/*11.23*/("""{"""),format.raw/*11.24*/("""
+        $(function () """),format.raw/*12.23*/("""{"""),format.raw/*12.24*/("""
             $('#js-news').ticker();
-        """),format.raw/*13.9*/("""}"""),format.raw/*13.10*/(""");
+            $('#fade').cycle("""),format.raw/*14.30*/("""{"""),format.raw/*14.31*/("""
+                fx:    'fade',
+                speed:  2500
+            """),format.raw/*17.13*/("""}"""),format.raw/*17.14*/(""");
+        """),format.raw/*18.9*/("""}"""),format.raw/*18.10*/(""");
     </script>
     <style>
-        ul """),format.raw/*16.12*/("""{"""),format.raw/*16.13*/("""
+        ul """),format.raw/*21.12*/("""{"""),format.raw/*21.13*/("""
             margin:0;
             padding:0;
             border:0;
@@ -49,7 +54,7 @@ Seq[Any](format.raw/*1.19*/("""
             font-size:100%;
             vertical-align:baseline;
             background:transparent;
-        """),format.raw/*24.9*/("""}"""),format.raw/*24.10*/("""
+        """),format.raw/*29.9*/("""}"""),format.raw/*29.10*/("""
     </style>
 
     <div id="content">
@@ -59,15 +64,20 @@ Seq[Any](format.raw/*1.19*/("""
             <li class="news-item"><a href="#">Congratulations to Dr. Hung's new position in XappMedia as principal software developer!</a></li>
             <li class="news-item"><a href="#">Dr. Hung's paper has been accepted for publication in Jounral Applied Physics.</a></li>
         </ul>
-        <div align="center" id="my_div">
-            <img src=""""),_display_(Seq[Any](/*35.24*/routes/*35.30*/.Assets.at("images/P1010530.jpg"))),format.raw/*35.63*/("""" class="theLogo" />
+        <div id="my_div" align="center">
+            <img src=""""),_display_(Seq[Any](/*40.24*/routes/*40.30*/.Assets.at("images/P1010530.jpg"))),format.raw/*40.63*/("""" class="theLogo" />
+            <!--<img src=""""),_display_(Seq[Any](/*41.28*/routes/*41.34*/.Assets.at("images/P1010484.jpg"))),format.raw/*41.67*/("""" class="theLogo" />-->
+            <!--<img src=""""),_display_(Seq[Any](/*42.28*/routes/*42.34*/.Assets.at("images/VancouverConferences.jpg"))),format.raw/*42.79*/("""" class="theLogo" />-->
+            <!--<img src=""""),_display_(Seq[Any](/*43.28*/routes/*43.34*/.Assets.at("images/Chicago.jpg"))),format.raw/*43.66*/("""" class="theLogo" />-->
         </div>
         <br>
-        <p> I am a Ph.D. candidate in the <a href="http://www.ece.umd.edu/">Department of ECE</a> at <a href="http://www.umd.edu/">University of Maryland, College Park</a>. I am working under the supervision of <a href="http://www.cspl.umd.edu/kjrliu/">Prof. Isaak D. Mayergoyz</a> in the <a href="http://sig.umd.edu/">Magnetic Lab</a> at University of Maryland, College Park since 2009. I received M.S. and B.S. degrees in Electrical Engineering from <a href="http://www.ntu.edu.tw/">National Taiwan University</a>, Taipei, Taiwan.</p>
-        <p> My PhD research interest focuses on plasmon resonances in metallic nanoparticles and their applications.</p>
+        <div>
+            <p> I am a Ph.D. candidate in the <a href="http://www.ece.umd.edu/">Department of ECE</a> at <a href="http://www.umd.edu/">University of Maryland, College Park</a>. I am working under the supervision of <a href="http://www.cspl.umd.edu/kjrliu/">Prof. Isaak D. Mayergoyz</a> in the <a href="http://sig.umd.edu/">Magnetic Lab</a> at University of Maryland, College Park since 2009. I received M.S. and B.S. degrees in Electrical Engineering from <a href="http://www.ntu.edu.tw/">National Taiwan University</a>, Taipei, Taiwan.</p>
+            <p> My PhD research interest focuses on plasmon resonances in metallic nanoparticles and their applications.</p>
+        </div>
     </div>
 
-""")))})),format.raw/*42.2*/("""
+""")))})),format.raw/*52.2*/("""
 """))}
     }
     
@@ -80,11 +90,11 @@ Seq[Any](format.raw/*1.19*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Oct 27 21:36:12 EDT 2013
-                    SOURCE: C:/Users/Piggy/dev/LingWebpage/app/views/index.scala.html
-                    HASH: abb4ce6b54293307a32fecb6c99794d602f04d3d
-                    MATRIX: 723->1|817->18|856->23|902->61|941->63|1030->117|1044->123|1107->165|1203->226|1217->232|1280->273|1482->440|1496->446|1559->488|1649->543|1663->549|1717->582|1818->655|1847->656|1921->703|1950->704|2021->747|2050->748|2285->956|2314->957|3032->1639|3047->1645|3102->1678|3860->2405
-                    LINES: 26->1|29->1|31->3|31->3|31->3|33->5|33->5|33->5|34->6|34->6|34->6|36->8|36->8|36->8|37->9|37->9|37->9|39->11|39->11|41->13|41->13|44->16|44->16|52->24|52->24|63->35|63->35|63->35|70->42
+                    DATE: Mon Oct 28 13:44:52 EDT 2013
+                    SOURCE: /Users/jpk/dev/MyfirstApplication/LingWebpage/app/views/index.scala.html
+                    HASH: 20bee9f65786b3d27f6c961e26e6653b903706bb
+                    MATRIX: 723->1|817->18|854->21|900->59|939->61|1026->113|1040->119|1103->161|1198->221|1212->227|1275->268|1475->433|1489->439|1552->481|1641->535|1655->541|1709->574|1799->628|1814->634|1882->680|1981->751|2010->752|2104->818|2133->819|2234->892|2263->893|2301->904|2330->905|2398->945|2427->946|2654->1146|2683->1147|3390->1818|3405->1824|3460->1857|3544->1905|3559->1911|3614->1944|3701->1995|3716->2001|3783->2046|3870->2097|3885->2103|3939->2135|4730->2895
+                    LINES: 26->1|29->1|31->3|31->3|31->3|33->5|33->5|33->5|34->6|34->6|34->6|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|40->12|40->12|42->14|42->14|45->17|45->17|46->18|46->18|49->21|49->21|57->29|57->29|68->40|68->40|68->40|69->41|69->41|69->41|70->42|70->42|70->42|71->43|71->43|71->43|80->52
                     -- GENERATED --
                 */
             
