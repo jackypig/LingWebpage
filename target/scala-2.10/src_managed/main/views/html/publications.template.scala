@@ -150,6 +150,40 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
         </ol>
         <br>
         <h3>Conference Presentations</h3>
+        <ol>
+            <li class="paper"><strong>L. Hung</strong>, P. McAvoy, D. Bowen, C. Krafft, and I. D. Mayergoyz,
+                "Analysis Plasmon Resonances in Metallic Nanostructures in Proximity to Dielectric Objects with
+                Application to Heat-Assisted Magnetic Recording,"<em>58th Annual Conference on Magnetism and Magnetic Materials (MMM)</em>, 4–8 November, 2013, Denver, Colorado, USA</li>
+            <br>
+            <div align="center" id="my_div">
+                <img src=""""),_display_(Seq[Any](/*131.28*/routes/*131.34*/.Assets.at("images/denver_home.jpg"))),format.raw/*131.70*/("""" width="80%" height="80%" class="theLogo" />
+            </div>
+            <br>
+            <li class="paper"><strong>L. Hung</strong>, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
+                "Analysis of Plasmon Resonances in Metallic nanostructures with Heat Sink Used in Heat-Assisted Magnetic Recording,"
+                <em>12th Joint MMM/Intermag Conference</em>, 14–18 January, 2013, Chicago, Illinois, USA</li>
+            <br>
+            <div align="center" id="my_div">
+                <img src=""""),_display_(Seq[Any](/*139.28*/routes/*139.34*/.Assets.at("images/Chicago.jpg"))),format.raw/*139.66*/("""" class="theLogo" />
+            </div>
+            <br>
+            <li class="paper"><strong>L. Hung</strong>, G. Lang, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
+                "Application of Plasmon Resonances in Metallic Nanostructures to Heat-Assisted Magnetic Recording,"
+                <em>IEEE International Magnetics Conference (INTERMAG)</em>, 7–11 May 2012, Vancouver, British Columbia, Canada</li>
+            <br>
+            <div align="center" id="my_div">
+                <img src=""""),_display_(Seq[Any](/*147.28*/routes/*147.34*/.Assets.at("images/VancouverConferences.jpg"))),format.raw/*147.79*/("""" class="theLogo" />
+            </div>
+            <br>
+            <li class="paper"><strong>L. Hung</strong>, G. Lang, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
+                "Circularly Polarized Plasmon Modes in Spheroidal Nanoshells for Applications to All-Optical Magnetic Recording,"
+                <em>56th Conference on Magnetism and Magnetic Materials (MMM)</em>, 30 October–3 November 2011, Scottsdale, Arizona, USA</li>
+            <br>
+            <div align="center" id="my_div">
+                <img src=""""),_display_(Seq[Any](/*155.28*/routes/*155.34*/.Assets.at("images/P1010484.jpg"))),format.raw/*155.67*/(""""  class="theLogo" />
+            </div>
+            <br>
+        </ol>
     </div>
 
 """)))})))}
@@ -164,11 +198,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 21 21:49:58 EDT 2013
-                    SOURCE: C:/Users/LingXiaoshu/dev/MyfirstApplication/LingWebpage/app/views/publications.scala.html
-                    HASH: 86334dc8f9fe78d0e4595f37fc02f50e6a752b73
-                    MATRIX: 803->1|838->28|877->30
-                    LINES: 29->1|29->1|29->1
+                    DATE: Sun Oct 27 21:47:16 EDT 2013
+                    SOURCE: C:/Users/Piggy/dev/LingWebpage/app/views/publications.scala.html
+                    HASH: ffea458a6ca30d296cfe7345d750e0bb26c7cbe8
+                    MATRIX: 803->1|838->28|877->30|16756->15872|16772->15878|16831->15914|17389->16435|17405->16441|17460->16473|18008->16984|18024->16990|18092->17035|18663->17569|18679->17575|18735->17608
+                    LINES: 29->1|29->1|29->1|159->131|159->131|159->131|167->139|167->139|167->139|175->147|175->147|175->147|183->155|183->155|183->155
                     -- GENERATED --
                 */
             

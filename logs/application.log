@@ -1,6 +1,12 @@
-2013-10-23 22:01:09,869 - [INFO] - from play in main 
+2013-10-27 21:44:38,304 - [INFO] - from play in main 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2013-10-23 22:01:31,201 - [INFO] - from play in play-internal-execution-context-1 
+2013-10-27 21:45:36,855 - [INFO] - from play in New I/O worker #1 
+Application started (Dev)
+
+2013-10-27 21:47:18,756 - [INFO] - from play in New I/O worker #2 
+Application started (Dev)
+
+2013-10-27 21:49:26,406 - [INFO] - from play in New I/O worker #2 
 Application started (Dev)
 
