@@ -28,8 +28,6 @@ object publications extends BaseScalaTemplate[play.api.templates.Html,Format[pla
 
 Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display_(Seq[Any](format.raw/*1.31*/("""
 
-
-
     <div id="content">
         <h2>Publications</h2>
         <br>
@@ -156,7 +154,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
                 Application to Heat-Assisted Magnetic Recording,"<em>58th Annual Conference on Magnetism and Magnetic Materials (MMM)</em>, 4–8 November, 2013, Denver, Colorado, USA</li>
             <!--<br>-->
             <!--<div align="center" id="my_div">-->
-                <!--<img src=""""),_display_(Seq[Any](/*131.32*/routes/*131.38*/.Assets.at("images/denver_home.jpg"))),format.raw/*131.74*/("""" width="80%" height="80%" class="theLogo" />-->
+                <!--<img src=""""),_display_(Seq[Any](/*129.32*/routes/*129.38*/.Assets.at("images/denver_home.jpg"))),format.raw/*129.74*/("""" width="80%" height="80%" class="theLogo" />-->
             <!--</div>-->
             <br>
             <li class="paper"><strong>L. Hung</strong>, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
@@ -164,7 +162,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
                 <em>12th Joint MMM/Intermag Conference</em>, 14–18 January, 2013, Chicago, Illinois, USA</li>
             <!--<br>-->
             <!--<div align="center" id="my_div">-->
-                <!--<img src=""""),_display_(Seq[Any](/*139.32*/routes/*139.38*/.Assets.at("images/Chicago.jpg"))),format.raw/*139.70*/("""" class="theLogo" />-->
+                <!--<img src=""""),_display_(Seq[Any](/*137.32*/routes/*137.38*/.Assets.at("images/Chicago.jpg"))),format.raw/*137.70*/("""" class="theLogo" />-->
             <!--</div>-->
             <br>
             <li class="paper"><strong>L. Hung</strong>, G. Lang, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
@@ -172,7 +170,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
                 <em>IEEE International Magnetics Conference (INTERMAG)</em>, 7–11 May 2012, Vancouver, British Columbia, Canada</li>
             <!--<br>-->
             <!--<div align="center" id="my_div">-->
-                <!--<img src=""""),_display_(Seq[Any](/*147.32*/routes/*147.38*/.Assets.at("images/VancouverConferences.jpg"))),format.raw/*147.83*/("""" class="theLogo" />-->
+                <!--<img src=""""),_display_(Seq[Any](/*145.32*/routes/*145.38*/.Assets.at("images/VancouverConferences.jpg"))),format.raw/*145.83*/("""" class="theLogo" />-->
             <!--</div>-->
             <br>
             <li class="paper"><strong>L. Hung</strong>, G. Lang, P. McAvoy, C. Krafft, and I. D. Mayergoyz,
@@ -180,7 +178,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
                 <em>56th Conference on Magnetism and Magnetic Materials (MMM)</em>, 30 October–3 November 2011, Scottsdale, Arizona, USA</li>
             <!--<br>-->
             <!--<div align="center" id="my_div">-->
-                <!--<img src=""""),_display_(Seq[Any](/*155.32*/routes/*155.38*/.Assets.at("images/P1010484.jpg"))),format.raw/*155.71*/(""""  class="theLogo" />-->
+                <!--<img src=""""),_display_(Seq[Any](/*153.32*/routes/*153.38*/.Assets.at("images/P1010484.jpg"))),format.raw/*153.71*/(""""  class="theLogo" />-->
             <!--</div>-->
             <br>
         </ol>
@@ -198,11 +196,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 28 21:50:28 EDT 2013
+                    DATE: Tue Oct 29 21:35:29 EDT 2013
                     SOURCE: C:/Users/Piggy/dev/LingWebpage/app/views/publications.scala.html
-                    HASH: 9aacdfcd8d44d6ead5a088d9557306f581ad794a
-                    MATRIX: 803->1|838->28|877->30|16774->15890|16790->15896|16849->15932|17435->16481|17451->16487|17506->16519|18082->17058|18098->17064|18166->17109|18765->17671|18781->17677|18837->17710
-                    LINES: 29->1|29->1|29->1|159->131|159->131|159->131|167->139|167->139|167->139|175->147|175->147|175->147|183->155|183->155|183->155
+                    HASH: 753ea485bdd6beeca95b2b8b27192832c3541076
+                    MATRIX: 803->1|838->28|877->30|16770->15886|16786->15892|16845->15928|17431->16477|17447->16483|17502->16515|18078->17054|18094->17060|18162->17105|18761->17667|18777->17673|18833->17706
+                    LINES: 29->1|29->1|29->1|157->129|157->129|157->129|165->137|165->137|165->137|173->145|173->145|173->145|181->153|181->153|181->153
                     -- GENERATED --
                 */
             

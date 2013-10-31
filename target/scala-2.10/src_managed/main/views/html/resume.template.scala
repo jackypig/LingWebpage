@@ -27,6 +27,11 @@ object resume extends BaseScalaTemplate[play.api.templates.Html,Format[play.api.
         _display_ {
 
 Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Resume")/*1.23*/ {_display_(Seq[Any](format.raw/*1.25*/("""
+    <style>
+        li.ProfessionExp """),format.raw/*3.26*/("""{"""),format.raw/*3.27*/("""
+            list-style-type: none;
+        """),format.raw/*5.9*/("""}"""),format.raw/*5.10*/("""
+    </style>
 
     <div id="content">
         <ul>
@@ -130,7 +135,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Resume")/*1.23*/ {_display_(Seq[
             <br>
             <li class="resume"><h2>Extracurricular Activities</h2></li>
             <br>
-            <li class="ProfessionExp"><div class="ExperienceTitle">Graduate Student Government, ECE Representative</div>
+            <li class="ProfessionExp" style="list-style-type: none"><div class="ExperienceTitle">Graduate Student Government, ECE Representative</div>
                 <div class="period" style="text-align: right">08/2012 - Present</div>
                 <ul>
                     <li>Serve as secretary in Legislative Action Committee to consult with the Chairperson on the order
@@ -154,7 +159,7 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Resume")/*1.23*/ {_display_(Seq[
             </li>
         </ul>
     </div>
-""")))})),format.raw/*129.2*/("""
+""")))})),format.raw/*134.2*/("""
 
 
 """))}
@@ -169,11 +174,11 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Resume")/*1.23*/ {_display_(Seq[
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Oct 28 22:42:07 EDT 2013
+                    DATE: Tue Oct 29 21:38:06 EDT 2013
                     SOURCE: C:/Users/Piggy/dev/LingWebpage/app/views/resume.scala.html
-                    HASH: 1064d96ce0991b3d8e1be3791e1cccd916fd9e67
-                    MATRIX: 797->1|826->22|865->24|9945->9072
-                    LINES: 29->1|29->1|29->1|157->129
+                    HASH: 7e3d5d63509b9515b8884296498c48dcc61ec10c
+                    MATRIX: 797->1|826->22|865->24|932->64|960->65|1032->111|1060->112|10184->9204
+                    LINES: 29->1|29->1|29->1|31->3|31->3|33->5|33->5|162->134
                     -- GENERATED --
                 */
             
