@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/Piggy/dev/LingWebpage/conf/routes
+// @SOURCE:C:/Users/LingXiaoshu/dev/MyfirstApplication/LingWebpage/conf/routes
 // @HASH:fad6daf34d3e539c49a3e311ba7a23c07809041b
-// @DATE:Mon Oct 28 21:46:07 EDT 2013
+// @DATE:Sat Nov 02 15:42:26 EDT 2013
 
 
 import play.core._
