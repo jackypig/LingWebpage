@@ -1,6 +1,254 @@
-2013-11-02 15:42:14,233 - [INFO] - from play in main 
+2013-11-03 13:15:27,941 - [INFO] - from play in main 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2013-11-02 15:42:46,005 - [INFO] - from play in play-internal-execution-context-1 
+2013-11-03 13:16:26,339 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 13:17:07,233 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 13:17:07,817 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 13:17:47,779 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 13:18:08,659 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 13:18:09,090 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 13:22:15,999 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 19:45:28,095 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6g6go0k74 - Internal server error, for (GET) [/Research] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[play.api.templates.Html does not take parameters]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:346) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:346) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:344) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:344) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.2-RC1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.2-RC1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_21]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_21]
+
+2013-11-03 19:46:45,475 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6g6go54k2 - Internal server error, for (GET) [/Research] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[in XML literal: name expected, but char '!' cannot start a name]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:346) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:346) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:344) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:344) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.2-RC1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.2-RC1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_21]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_21]
+
+2013-11-03 19:49:58,618 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6g6gog4ch - Internal server error, for (GET) [/Research] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[in XML literal: name expected, but char '!' cannot start a name]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:346) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:346) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:344) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:344) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.2-RC1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.2-RC1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_21]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_21]
+
+2013-11-03 19:50:13,279 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6g6goh04e - Internal server error, for (GET) [/Research] ->
+
+sbt.PlayExceptions$CompilationException: Compilation error[in XML literal: name expected, but char '!' cannot start a name]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:349) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:346) ~[na:na]
+	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:346) ~[na:na]
+	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:344) ~[na:na]
+	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
+	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:344) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:106) ~[play_2.10.jar:2.1.2-RC1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.1.2-RC1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_21]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_21]
+
+2013-11-03 19:50:23,601 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6g6gohfa0 - Internal server error, for (GET) [/Research] ->
+
+sbt.PlayExceptions$TemplateCompilationException: Compilation error[`identifier' expected but `' found]
+	at sbt.PlayCommands$$anonfun$43.apply(PlayCommands.scala:433) ~[na:na]
+	at sbt.PlayCommands$$anonfun$43.apply(PlayCommands.scala:409) ~[na:na]
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581) ~[na:na]
+	at sbt.Scoped$$anonfun$hf5$1.apply(Structure.scala:581) ~[na:na]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:49) ~[scala-library.jar:na]
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311) ~[na:na]
+	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$12.apply(Structure.scala:311) ~[na:na]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:41) ~[na:na]
+	at sbt.std.Transform$$anon$5.work(System.scala:71) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:232) ~[na:na]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
+	at sbt.Execute.work(Execute.scala:238) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:232) ~[na:na]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160) ~[na:na]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) ~[na:na]
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source) ~[na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.7.0_21]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source) ~[na:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.7.0_21]
+	at java.lang.Thread.run(Unknown Source) [na:1.7.0_21]
+
+2013-11-03 19:50:55,712 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 19:50:56,129 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 19:51:14,077 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 19:51:43,159 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 19:53:08,213 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 19:53:38,502 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 19:59:16,233 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 20:01:58,802 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 20:02:45,635 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 20:02:57,759 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 20:03:44,907 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 20:04:12,759 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 20:04:34,725 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 20:27:39,145 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 20:28:07,831 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 20:28:36,163 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 20:28:53,804 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:01:02,300 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 21:01:25,877 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 21:02:41,151 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:03:20,320 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 21:03:33,994 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2013-11-03 21:03:49,768 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 21:07:34,779 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:08:01,385 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:12:26,857 - [INFO] - from play in play-internal-execution-context-3 
+Application started (Dev)
+
+2013-11-03 21:15:31,468 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 21:16:54,652 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:17:09,173 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 21:17:09,520 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:17:31,907 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2013-11-03 21:27:42,476 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:29:21,572 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2013-11-03 21:32:20,326 - [INFO] - from play in play-internal-execution-context-3 
 Application started (Dev)
 

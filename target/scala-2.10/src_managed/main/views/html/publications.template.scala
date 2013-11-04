@@ -29,8 +29,8 @@ object publications extends BaseScalaTemplate[play.api.templates.Html,Format[pla
 Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display_(Seq[Any](format.raw/*1.31*/("""
 
     <div id="content">
-        <h2>Publications</h2>
         <br>
+        <h2>Publications</h2>
         <h3>Journal papers</h3>
         <ol>
             <li class="paper"><strong>L. Hung</strong>, P. McAvoy, D. Bowen, C. Krafft, and I. D. Mayergoyz,
@@ -196,9 +196,9 @@ Seq[Any](_display_(Seq[Any](/*1.2*/main("Ling's Publications")/*1.29*/ {_display
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Nov 02 15:42:27 EDT 2013
+                    DATE: Sun Nov 03 21:17:30 EST 2013
                     SOURCE: C:/Users/LingXiaoshu/dev/MyfirstApplication/LingWebpage/app/views/publications.scala.html
-                    HASH: 753ea485bdd6beeca95b2b8b27192832c3541076
+                    HASH: dcdab4e27f574a236b4596ddd5a3e17e3ced4cbb
                     MATRIX: 803->1|838->28|877->30|16770->15886|16786->15892|16845->15928|17431->16477|17447->16483|17502->16515|18078->17054|18094->17060|18162->17105|18761->17667|18777->17673|18833->17706
                     LINES: 29->1|29->1|29->1|157->129|157->129|157->129|165->137|165->137|165->137|173->145|173->145|173->145|181->153|181->153|181->153
                     -- GENERATED --

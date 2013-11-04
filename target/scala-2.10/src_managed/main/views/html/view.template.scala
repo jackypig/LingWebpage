@@ -42,7 +42,7 @@ Seq[Any](format.raw/*1.15*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Nov 02 15:42:28 EDT 2013
+                    DATE: Sat Nov 02 20:49:38 EDT 2013
                     SOURCE: C:/Users/LingXiaoshu/dev/MyfirstApplication/LingWebpage/app/views/view.scala.html
                     HASH: c44c1371fedbc54ebba6c0978a19125155641aab
                     MATRIX: 722->1|812->14|883->50|913->59|968->79|992->82

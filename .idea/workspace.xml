@@ -8,13 +8,16 @@
     <file path="/resume.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383096837845" ignored="false" />
     <file path="/routes" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1382407340596" ignored="false" />
     <file path="/plugins.sbt" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383421287180" ignored="false" />
-    <file path="/main.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383013324069" ignored="false" />
-    <file path="/index.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383015363890" ignored="false" />
-    <file path="/publications.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1382924823157" ignored="false" />
+    <file path="/main.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383444210472" ignored="false" />
+    <file path="/index.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383440241997" ignored="false" />
+    <file path="/publications.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383531447561" ignored="false" />
     <file path="/Contact.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1382924417032" ignored="false" />
-    <file path="/Dummy.txt" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383097892771" ignored="false" />
-    <file path="/research.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383187247442" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383445905493" ignored="false" />
+    <file path="/research.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383531293235" ignored="false" />
     <file path="$PROJECT_DIR$/../XappServer/app/views/adDetail/adDetail.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383099275334" ignored="false" />
+    <file path="/HAMR.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383530534417" ignored="false" />
+    <file path="$PROJECT_DIR$/target/scala-2.10/src_managed/main/controllers/routes.java" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383439845750" ignored="false" />
+    <file path="/AOMR.scala.html" changelist="8f478f48-3a58-4013-895c-f91410603465" time="1383532041591" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,6 +68,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -78,7 +81,48 @@
       <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="91" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
+            <state line="5" column="77" selection-start="299" selection-end="299" vertical-scroll-proportion="-0.6785714">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HAMR.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/HAMR.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="149" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-13.464286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Radiation.scala.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Radiation.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="51" selection-start="186" selection-end="186" vertical-scroll-proportion="0.2007926">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AOMR.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/AOMR.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.392857">
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SERS.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/SERS.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="69" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.428571">
               <folding />
             </state>
           </provider>
@@ -87,25 +131,7 @@
       <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="34" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-18.214285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/my_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publications.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/publications.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,25 +140,16 @@
       <file leaf-file-name="research.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/research.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="0" selection-start="3518" selection-end="3518" vertical-scroll-proportion="-65.71429">
+            <state line="92" column="102" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugins.sbt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <file leaf-file-name="publications.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/publications.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="285" selection-end="285" vertical-scroll-proportion="0.16666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="75" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +158,7 @@
       <file leaf-file-name="resume.scala.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/resume.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="52" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
+            <state line="5" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,27 +174,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/main2.scala.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/stylesheets/tickerstyle.css" />
         <option value="$PROJECT_DIR$/app/views/Contact.scala.html" />
         <option value="$PROJECT_DIR$/public/javascripts/jquery.cycle2.min.js" />
-        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/publications.scala.html" />
         <option value="$PROJECT_DIR$/app/views/resume.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/HAMR.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/SERS.scala.html" />
         <option value="$PROJECT_DIR$/app/views/Radiaction.scala.html" />
-        <option value="$PROJECT_DIR$/app/views/research.scala.html" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/main.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/HAMR.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/research.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/publications.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/AOMR.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/SERS.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/Radiation.scala.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="876" />
-    <option name="y" value="6" />
-    <option name="width" value="981" />
+    <option name="x" value="76" />
+    <option name="y" value="17" />
+    <option name="width" value="1059" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -208,7 +227,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,7 +366,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +374,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../XappServer" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -363,8 +382,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -379,6 +398,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -407,19 +439,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -458,6 +477,13 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -491,8 +517,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="876" y="6" width="981" height="1010" extended-state="0" />
-    <editor active="true" />
+    <frame x="76" y="17" width="1059" height="1010" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,7 +537,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24100327" sideWeight="0.6707865" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22211055" sideWeight="0.6707865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,115 +606,132 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="289" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/my_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publications.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/research.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resume.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="52" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/jquery-ui-1.10.0.custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="91" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/publications.scala.html">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/resume.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="52" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="47" selection-start="285" selection-end="285" vertical-scroll-proportion="0.16666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/my_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+        <state line="6" column="53" selection-start="169" selection-end="169" vertical-scroll-proportion="0.152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7910828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="41" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="34" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-18.214285">
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/research.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="3518" selection-end="3518" vertical-scroll-proportion="-65.71429">
+        <state line="92" column="102" selection-start="2995" selection-end="2995" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+    <entry file="file://$PROJECT_DIR$/app/views/publications.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="285" selection-end="285" vertical-scroll-proportion="0.16666667">
+        <state line="9" column="75" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/resume.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="77" selection-start="299" selection-end="299" vertical-scroll-proportion="-0.6785714">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/HAMR.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="149" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-13.464286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/AOMR.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-3.392857">
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/SERS.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="69" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.428571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Radiation.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="51" selection-start="186" selection-end="186" vertical-scroll-proportion="0.2007926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
